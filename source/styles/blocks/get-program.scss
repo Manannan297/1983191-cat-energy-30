@@ -26,3 +26,8 @@
     margin-bottom: 66px;
   }
 }
+
+.get-program__break::after {
+  content: "\A";
+  white-space: pre;
+}

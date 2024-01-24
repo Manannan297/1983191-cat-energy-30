@@ -28,3 +28,11 @@
     box-shadow: -40px 0 0 $white, 40px 0 0 $white;
   }
 }
+
+.section-title__break::after {
+  content: "\A";
+
+  @include media-breakpoint-down(md) {
+    white-space: pre;
+  }
+}
